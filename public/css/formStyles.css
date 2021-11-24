@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0;
+}
+.formBody {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  position: relative;
+  overflow-y: scroll;
+}
+.singleInputDiv {
+  width: 50%;
+}
+.singleInputDiv input {
+  margin-top: 5px;
+  font-size: 16px;
+  padding: 5px;
+  width: 95%;
+}
+.singleInputDiv textarea {
+  margin-top: 5px;
+  font-size: 16px;
+  padding: 5px;
+  width: 95%;
+  resize: none;
+  height: 100px;
+}
+.singleSection {
+  width: 100%;
+}
+.flexOne {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+.flexTwo {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+.hidden {
+  display: none;
+}
+.nextButtonDiv {
+  /* position: absolute;
+  bottom: 50px;
+  right: 50px; */
+  padding-top: 50px;
+}
+.nextButtonDiv button {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 7px 30px;
+  border: 0;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.singleChildSection {
+  padding-bottom: 20px;
+}
+.singleChildSection:not(:first-child) {
+  padding: 20px 0 20px 0;
+  border-top: 2px solid #ddd;
+}

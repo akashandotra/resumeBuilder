@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+body {
+  /* background-image: url(../images/background.jpg); */
+  background-color: burlywood;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0;
+}
+p,
+div,
+h1,
+h2,
+h3,
+span,
+strong,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+}
+.left {
+  flex: 1.5;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 10px 10px 20px;
+}
+.right {
+  flex: 3;
+  padding: 10px 20px 10px 10px;
+}
+.singleSection {
+  margin: 20px 0;
+}
+
+#fullName {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.title {
+  font-size: 25px;
+  font-weight: lighter;
+  border-bottom: 1px solid #000;
+}
+.sectionContent {
+  padding: 10px 0 0 0;
+}
+.singleItem {
+  font-size: 14px;
+}
+.singleItem:not(:first-child) {
+  margin-top: 10px;
+}
+.sectionContent p {
+  font-size: 14px;
+}
+#skills {
+  line-height: 2.2;
+}
+.singleItem ul {
+  margin: 10px 0 0 30px;
+}
+.itemTitleFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.projectDescriptionList li:not(:first-child) {
+  margin-top: 10px;
+}
+@media print {
+  #Download {
+    display: none;
+    visibility: hidden;
+  }
+}

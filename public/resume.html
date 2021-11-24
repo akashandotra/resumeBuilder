@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Your resume</title>
+    <link rel="stylesheet" href="css/resume.css" />
+  </head>
+  <body>
+    <div>
+      <button id="Download">Download</button>
+    </div>
+    <div class="main">
+      <div class="left">
+        <!-- Full Name -->
+        <div class="singleSection">
+          <h2 id="fullName">Full Name</h2>
+        </div>
+        <!-- Contact -->
+        <div class="singleSection">
+          <h2 class="title">Contact</h2>
+          <div class="sectionContent">
+            <div class="singleItem">
+              <p><strong>Address</strong></p>
+              <p id="address">Address here</p>
+            </div>
+            <div class="singleItem">
+              <p><strong>Email</strong></p>
+              <p id="email">test@test.com</p>
+            </div>
+            <div class="singleItem">
+              <p><strong>Phone</strong></p>
+              <p id="phone">XXXXXXXXXX</p>
+            </div>
+          </div>
+        </div>
+        <!-- Achievements -->
+        <div class="singleSection">
+          <h2 class="title">Achievements</h2>
+          <div class="sectionContent">
+            <p id="achievements">Achievements</p>
+          </div>
+        </div>
+        <!-- Skills -->
+        <div class="singleSection">
+          <h2 class="title">Skills</h2>
+          <div class="sectionContent">
+            <p id="skills">Skills</p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <!-- Objective -->
+        <div class="singleSection">
+          <h2 class="title">Objective</h2>
+          <div class="sectionContent">
+            <p id="summary">Summary</p>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="singleSection">
+          <h2 class="title">Education</h2>
+          <div class="sectionContent" id="education">
+            <div class="singleItem">
+              <div class="itemTitleFlex">
+                <p><strong>Degree Name</strong></p>
+                <p><strong>2018-2022</strong></p>
+              </div>
+              <ul>
+                <li><p>Branch</p></li>
+                <li><p>School/ University</p></li>
+                <li><p>CGPA/ Percentage</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Projects -->
+        <div class="singleSection">
+          <h2 class="title">Projects</h2>
+          <div class="sectionContent" id="project">
+            <div class="singleItem">
+              <div class="itemTitleFlex">
+                <p><strong>Project Name</strong></p>
+                <p><strong>Date</strong></p>
+              </div>
+              <ul>
+                <li><p>Points</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="scripts/resumeMain.js"></script>
+</html>
